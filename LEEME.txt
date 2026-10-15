@@ -1,0 +1,16 @@
+Ransom Demo Android — proyecto seguro
+
+Este proyecto NO ejecuta ransom.exe ni incluye su código. Es una recreación visual segura para Android.
+- No solicita permisos.
+- No lee, cifra, borra ni modifica archivos.
+- No bloquea el teléfono; el botón DETENER Y VOLVER y el botón Atrás salen de la simulación.
+
+Compilación en la nube sin PC ni Termux:
+1. Extrae este ZIP en el teléfono.
+2. Sube la carpeta del proyecto a un repositorio nuevo de GitHub (puedes usar github.com desde el navegador).
+3. En el repositorio, abre Actions y habilita los workflows si GitHub lo pide.
+4. En la pestaña Actions, selecciona “Build safe demo APK”, pulsa Run workflow y confirma.
+5. Cuando termine en verde, abre esa ejecución y descarga el artefacto “RansomDemo-debug-apk”.
+6. Descomprime el artefacto y abre app-debug.apk para instalarlo. Android puede pedir permiso para instalar desde el navegador/gestor de archivos; concédelo solo si confías en el proyecto que acabas de subir.
+
+Nota: este ZIP contiene el código fuente y el flujo de compilación, no un APK ya compilado.
